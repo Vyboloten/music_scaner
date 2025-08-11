@@ -1,0 +1,46 @@
+# 🐍 Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# 📦 Virtual environments
+venv/
+.env/
+.envrc
+
+# 🔧 IDE/editor configs
+.vscode/
+.idea/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# 📄 Dependency lock files (optional)
+poetry.lock
+Pipfile.lock
+
+# 🔐 Secrets (if any)
+*.key
+*.pem
+*.env
+
+# 🧪 Test output
+htmlcov/
+coverage.xml
+*.cover
+*.pytest_cache/
+.cache/
+
+# 📚 Jupyter notebooks
+.ipynb_checkpoints/
+
+# 📁 OS-specific
+.DS_Store
+Thumbs.db
